@@ -1,0 +1,27 @@
+//primitive
+
+//7 type :string,number,boolean,null,undefined,bigint,symbol
+
+//non primitive/reference
+
+//array,object,functions
+//typeof is used to check datatype
+
+let id=1;
+let name='naivedh';
+let islogin =true;
+let num=null;
+let temp;
+let sign=Symbol('122');
+let sign1=Symbol('122');
+console.log(sign==sign1);
+
+let no=[12,12,1,2];
+console.log(no);
+let obj={
+    naam:'naivedh',
+    number:1213
+}
+console.log(obj)
+console.log(typeof temp);
+console.log(num);
